@@ -12,6 +12,7 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 mx-auto flex justify-between items-center font-titleFont navbar">
       <div style={{fontFamily:'sans-serif', fontSize:'30px', display:'flex', alignItems:'center'}}>
         <img
+          className='w-10 h-10'
           src={profilePhoto}
           alt="profilePhoto"
         />

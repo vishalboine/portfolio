@@ -5,18 +5,20 @@ import { contactImg } from "../../assets/index";
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#0A0118] to-[#140033] p-4 lgl:p-8 rounded-lg flex flex-col gap-8 justify-center">
+      <div className='lgl: w-full'>
       <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
+        className="lgl:w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
         alt="contactImg"
       />
+      </div>
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-[#fb0052]">Vishal Boine</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        Passionate MERN stack developer with a knack for crafting dynamic web applications. From frontend design to backend development, I thrive on creating seamless digital experiences. Let's build something amazing together!
+        Passionate Full Stack Developer proficient in Java with Spring Framework and the MERN stack. From frontend design to backend development, I thrive on creating seamless digital experiences. Let's build something amazing together!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 9004049466</span>
